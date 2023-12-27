@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+*{
+  font-family: "Raleway", sans-serif;
+}
+.container{
+  background-color: rgb(231, 230, 237);
+  height: 100vh;
+  width: 100vh;
+  overflow-x: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container .title{
+  padding: 20px;
+}
+
+.container .title .txt {
+  font-size: 2.3rem;
+  color: #fff;
+}
+
+.display{
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+  background-color: rgb(70, 68, 68);
+  color: #fff;
+
+}
+.display .inp{
+  font-size: 1.2rem;
+  font-weight: 700;
+
+}
+
+.display .out{
+  font-size: 1.2rem;
+  font-weight: bold;
+  
+}
+.btn-container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(5,1fr);
+  grid-gap: 2px;
+
+
+}
+.btn-container .btn{
+   background-color: slateblue;
+   color: #fff;
+   font-size: 1.4rem;
+   padding: 1.2rem;
+   cursor: pointer;
+   border-radius: 2px;
+   text-align: center;
+
+}
+.equal{
+  background-color: green
+  !important;
+ 
+}
+.or{
+  background-color: rgb(237, 99, 50)
+  !important;
+}
+.red{
+  background-color: red
+  !important;
+}
+.bla{
+  background-color: black
+  !important;
+}
